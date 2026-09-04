@@ -9,8 +9,8 @@ public class BankAccount {
         balance += amount;
     }
     public boolean withdraw(double amount) {
-        if(amount <= balance+50){
-            balance -= amount;
+        if(amount <= balance+52){
+            balance -= amount+2;
             return true;
         }
         return false;
